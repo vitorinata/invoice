@@ -1,0 +1,35 @@
+p{
+    border-color: aqua;
+}
+#line_1{
+    border-style:solid;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+#line_2{
+    border-style: dotted;
+    height: 100px;
+}
+#line_3{
+    border-style: dashed;
+    border-width: 1px 4px 12px 4px;
+    border-color: blue brown chartreuse;
+}
+#line_4{
+    border-style: double;
+    padding: 20px;
+}
+#line_5{
+	border-style: groove;
+}
+#line_6{
+    border-style: inset;
+    padding: 10px;
+    margin-top: 10px;
+}
+#line_7{
+	border-style: outset;
+}
+#line_8{
+	border-style: ridge;
+}

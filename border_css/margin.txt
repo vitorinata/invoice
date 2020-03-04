@@ -1,0 +1,2 @@
+margin = untuk memberi jarak antar elemen 
+padding = untuk memberi jarak di dalam elemen
