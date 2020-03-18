@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+table {
+width:80%;
+  border: 1px solid #aaa;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 15px 15px 0px 0px;;
+  overflow: hidden;
+}
+table thead th,
+table tbody th,
+table tbody td {
+  padding: .6em 3em;
+  border-bottom: 1px solid #aaa;
+}
+table thead th {
+  background-color: #ddd;
+}
+table tbody td {
+  background-color: #eee;
+}
+table tbody td {
+  border-left: 1px solid #aaa;
+}
+
+table thead th + th,
+table tbody th {
+  border-left: 1px solid #aaa;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+fieldset{
+	width: 50%;
+
+}
+select{
+
+border-radius: 8px;
+background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><polyline points='8,12,15,8,22,12' fill='none' style='stroke:white;stroke-width:2'/><polyline points='8,18,15,22,22,18' fill='none' style='stroke:white;stroke-width:2'/></svg>"),
+linear-gradient(to bottom, #a0d8ff 0%, #2591dd 150%);;
+height: 100%;
+width: 150px;
+background-position: center right;
+background-size:  1.5em 1.5em;
+background-repeat: no-repeat;
+margin-top: 10px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+.form{
+        line-height:40px;
+    }
+	.form2{
+        padding-top: 10px;
+    }
+	.member{
+        display: inline;
+    }
+	#vname1{
+        margin-left: 70px;
+        padding-right: 30px;
+    }
+    #vname2{
+        margin-left: 70px;
+        padding-right: 30px;      
+    }
+	input.submit{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 50%;
+        background-color: darkgreen;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+<h1>Poetry Workshop</h1>
+<p>Rachael Boast discovers some ingenious responses to this month's exercise, and offers some radical feedback</p>
+<p>This is a nicely compacted single stanza poem.</p>
+
+<ul>
+                <li>A Poetic Perspective</li>
+                <li>The town's deserted,s</li>
+                <li>Women in their sixties </li>
+                <li>A festival of flesh</li>
+			</ul>
+			
+			<br>
+			<br>
+			<br>
+
+<table>
+  <thead>
+    <tr>
+      <th width="281">&nbsp;</th>
+      <th width="226">New York </th>
+      <th width="239">Chicago</th>
+      <th width="202">San Francisco </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A Poetic Perspective </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+    </tr>
+    <tr>
+      <th>The town's deserted,s </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+    </tr>
+    <tr>
+      <td>Women in their sixties </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+      <td>Sat, 4 Feb 2012 11am-2pm </td>
+    </tr>
+	<tr>
+      <th>A festival of flesh </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+      <th>Sat, 4 Feb 2012 11am-2pm </th>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<br>
+
+<fieldset >
+    <legend >Repair Your Interest</legend>
+	
+	<form class="form">
+		<label for="fname" id="fname" name="fname">Your name:</label>
+		<input type="text" id="vname1" name="fname" value="">
+<br>
+		<label for="femail" id="femail" email="femail">Your email:</label>
+		<input type="email" id="vname2" email="femail">
+		</form>
+		<form class="form2">
+            <label for="select">Your closest center:</label>
+            <select class="select" >
+                <option value="n">New York</option>
+                <option value="c">Chicago</option>
+                <option value="s">San Francisco</option>
+			</select>
+			<br>
+      <p class="member">Are you a member ?</p>
+            <input type="radio" class="yesno" id="yes" name="member" value="yes">
+            <label for="yes">Yes</label> 
+            <input type="radio" id="no" name="member" value="no">
+            <label for="no">No</label>     
+        </form>
+</fieldset>
+<input class="submit" type="submit" value="Register">
+
+</body>
+</html>

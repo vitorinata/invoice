@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#example1 {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+#example2 {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+}
+</style>
+</head>
+<body>
